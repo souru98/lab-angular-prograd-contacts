@@ -24,6 +24,5 @@ export class ContactListComponent implements OnInit {
     // clear inputs
     this.contacts.unshift(newContact);
     this.newContact = {};
-    // alert("New contact added");
   }
 }
